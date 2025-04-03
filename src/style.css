@@ -1,0 +1,310 @@
+:root {
+  --primary-color: #5f85db;
+  --secondary-color: #4ecca3;
+  --light-color: #eeeeee;
+  --gray-color: #6c727a;
+  --dark-color-1: #393e46;
+  --dark-color-2: #26282b;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  background-color: var(--dark-color-1);
+  color: var(--light-color);
+  font-family: "Roboto Mono", monospace;
+}
+
+.container {
+  margin: 60px auto;
+  max-width: 90%;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0px;
+}
+
+h1 {
+  font-size: 72px;
+  font-family: "Major Mono Display", monospace;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.6;
+  font-weight: lighter;
+}
+
+h4,
+p {
+  font-weight: lighter;
+}
+
+.main-info {
+  padding: 50px 0px;
+}
+
+.navbar {
+  background-color: var(--dark-color-2);
+}
+
+.navbar-brand {
+  color: var(--primary-color);
+  font-family: "Major Mono Display", monospace;
+}
+
+.nav-link {
+  color: var(--secondary-color);
+  font-weight: lighter;
+}
+
+.active {
+  color: var(--light-color);
+}
+
+.navigation-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.navigation-buttons a,
+.app-button {
+  border: 1px solid var(--primary-color);
+  padding: 20px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.more-info-button,
+.less-info-button,
+.contact-me-button {
+  background-color: var(--secondary-color);
+  color: var(--light-color);
+  border: 0px;
+  margin: 5px;
+  padding: 20px 25px;
+  border-radius: 50px;
+  box-shadow: var(--box-shadow);
+}
+
+.contact-me-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.contact-content {
+  background-color: var(--dark-color-2);
+  color: var(--primary-color);
+  margin: 5px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+}
+
+.about-me-paragraph {
+  margin: 30px auto;
+  text-align: left;
+}
+
+.about-me-column {
+  background-color: var(--secondary-color);
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.button-1 {
+  background-color: var(--primary-color);
+  color: white;
+  box-shadow: var(--box-shadow);
+}
+
+.button-2,
+#back-to-homepage {
+  color: var(--primary-color);
+  margin-left: 40px;
+}
+
+.button-3 {
+  background-color: transparent;
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.more-info-button:hover,
+.less-info-button:hover,
+.contact-me-button:hover,
+.button-1:hover,
+.button-2:hover,
+.button-3:hover {
+  opacity: 0.8;
+  transition: 0.2s ease-in-out;
+}
+
+.contact-content span {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.contact-content span:hover {
+  text-decoration: underline;
+}
+
+.bubble {
+  background-color: var(--dark-color-2);
+  display: inline-block;
+  color: var(--primary-color);
+  padding: 3px 8px;
+  margin: 2px;
+  border-radius: 30px;
+  min-width: 100px;
+  font-size: 12px;
+  transition: 0.2s ease-in-out;
+}
+
+.bubble:hover {
+  color: var(--secondary-color);
+}
+
+.my-picture {
+  width: 80%;
+  margin: 50px;
+  padding: 5px;
+  border-radius: 50%;
+  border: 2px solid var(--primary-color);
+  filter: grayscale(30%);
+  transition: 0.5s ease-in-out;
+}
+
+.my-picture:hover {
+  border: 2px solid var(--secondary-color);
+  padding: 7px;
+  filter: grayscale(0%);
+}
+
+.project-picture {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid var(--secondary-color);
+  transition: 0.5s ease-in-out;
+}
+
+.project-picture:hover {
+  border: 2px solid var(--primary-color);
+  padding: 6px;
+}
+
+.text-highlight {
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+
+.cv {
+  max-width: 800px;
+  margin: 5px auto;
+  padding: 10px;
+  text-align: left;
+}
+
+.corporation {
+  padding: 10px;
+  border-left: 2px solid var(--gray-color);
+  transition: 0.3s ease-in-out;
+}
+
+.corporation:hover {
+  background-color: var(--gray-color);
+  cursor: pointer;
+}
+
+.job-title {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 0px 2px 0px;
+}
+
+.job-duration {
+  font-size: 12px;
+  font-weight: lighter;
+  padding: 0px 0px 15px 0px;
+}
+
+.job-list-icon {
+  color: var(--primary-color);
+  font-size: 12px;
+  margin: 10px 0px;
+}
+
+.job-characteristics {
+  font-weight: lighter;
+}
+
+.job-active {
+  border-left: 2px solid var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+.git-repo-footer {
+  margin-top: 100px;
+  font-size: 12px;
+  opacity: 0.8;
+  text-decoration: none;
+}
+.git-repo-link {
+  font-size: 20px;
+  color: var(--light-color);
+  margin: 0px;
+}
+
+@media (max-width: 992px) {
+  .main-info {
+    padding: 50px 0px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .contact-content {
+    font-size: 14px;
+  }
+  .about-me-paragraph {
+    width: 100%;
+    margin: 0px auto;
+  }
+  .my-picture {
+    width: 90%;
+    margin: 20px 0px;
+  }
+  .corporation {
+    display: inline-block;
+    border-left: 0px;
+    border-bottom: 2px solid var(--gray-color);
+    transition: 0.3s ease-in-out;
+  }
+  .job-active {
+    border-bottom: 2px solid var(--secondary-color);
+    color: var(--secondary-color);
+  }
+}

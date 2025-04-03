@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hi there! I'm Anna and I'm learning web development. Come in and learn more about me."
+    />
+    <title>About Anna Ruiz Verdaguer</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <script
+      src="https://kit.fontawesome.com/cce3fc98a6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark">
+      <div class="container-fluid px-5">
+        <a class="navbar-brand" href="index.html" title="Homepage"
+          ><i
+            class="fa-solid fa-laptop-code"
+            alt="Logo"
+            width="30"
+            height="24"
+            class="d-inline-block align-text-top"
+          ></i>
+          anna ruiz</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="index.html" title="Homepage">Home</a>
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="about-me.html"
+              title="About me page"
+              >About</a
+            >
+            <a class="nav-link" href="cv.html" title="Work experience page"
+              >Experience</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="main-info">
+        <h1>About me</h1>
+        <h3>Front-end development apprentice, based in Barcelona.</h3>
+        <div class="row mt-5">
+          <div class="col-lg-6">
+            <img
+              src="images/anna-ruiz.JPG"
+              alt="A picture of myself"
+              class="my-picture"
+            />
+          </div>
+          <div class="col-lg-6">
+            <p class="about-me-paragraph">
+              1995, born and raised in
+              <span class="text-highlight">Barcelona</span>, proud of my
+              mediterranian roots which I think have defined part of my
+              personality. I am a very social person even though I am quite
+              introverted. I am very active, so I like practising many sports on
+              a regular basis. My favourite ones are athletics, sports climbing, football
+              and hiking. <br /><br />After taking Audiovisual Systems
+              Engineering in university I have been working as a
+              <span class="text-highlight">QA Engineer</span>, not only as
+              manual tester but also automating test suites. After almost 7
+              years in the Quality branch I am open for a
+              <span class="text-highlight">change</span> in roles to become a
+              full time frontend developer. <br /><br />Currently I'm in the
+              learning stage of this change, and this is why I have developed
+              this page. Click
+              <a href="cv.html" class="text-highlight">here</a> if you'd like to
+              know more about my technical background.
+            </p>
+          </div>
+        </div>
+      </div>
+      <h3>Some of my projects</h3>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mt-5">
+          <div class="app-photo">
+            <img src="images/itemManager.png" alt="Item Manager Screenshot" class="project-picture" />
+          </div>
+          <div class="app-content mx-4">
+            <h2 class="my-3">Item Manager</h2>
+            <p>
+              Item manager site to search for items, save them as favourite, and order them. I have tried to have an easy to use UI as well as make it responsive for devices.
+              <br />
+              <br />
+              This app was developed as a frontend test.
+            </p>
+            <p>Please go and try!</p>
+            <div class="bubble">Typescript</div>
+            <div class="bubble">React</div>
+            <div class="bubble">CSS Tailwind</div>
+            <div class="bubble">Jest</div>
+            <div class="bubble">React Testing Library</div>
+            <div class="bubble">Netlify</div>
+            <div class="bubble">Github</div>
+            <form action="https://magenta-cuchufli-ffc825.netlify.app/" target="_blank">
+              <button class="app-button button-1 mt-5">
+                Item Manager App
+              </button>
+            </form>
+            <form action="https://github.com/annarverdaguer/WallapopItemManager" target="_blank">
+              <button class="button-3 mt-3">Check Github Repo</button>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-5">
+          <div class="app-photo">
+            <img
+              src="images/pasapalabra.png"
+              alt="Pasapalabra Game"
+              class="project-picture"
+            />
+          </div>
+          <div class="app-content mx-4">
+            <h2 class="my-3">Pasapalabra Game</h2>
+            <p>
+              Pasapalabra is a Spanish television game show. The game gives for
+              each letter of the alphabet a definition of a word starting with
+              or containing that letter. The player responds with a word, or
+              passes by clicking "pasapalabra".
+              <br />
+              <br />
+              This app was developed as a coding challenge a colleage of mine
+              gave me. It includes lots of Javascript, and plenty of logic
+              behind.
+            </p>
+            <p>Give it a try!</p>
+            <div class="bubble">HTML</div>
+            <div class="bubble">CSS</div>
+            <div class="bubble">JS Vanilla</div>
+            <div class="bubble">Netlify</div>
+            <div class="bubble">Github</div>
+            <form
+              action="https://gorgeous-babka-cf9dca.netlify.app/"
+              target="_blank"
+            >
+              <button class="app-button button-1 mt-5">
+                Play Pasapalabra Game
+              </button>
+            </form>
+            <form
+              action="https://github.com/annaruizverdaguer/pasapalabra"
+              target="_blank"
+            >
+              <button class="button-3 mt-3">Check Github Repo</button>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-5">
+          <div class="app-photo">
+            <img
+              src="images/weather-forecast.png"
+              alt="Weather app"
+              class="project-picture"
+            />
+          </div>
+          <div class="app-content mx-4">
+            <h2 class="my-3">Weather App</h2>
+            <p>
+              This weather app will tell you the current weather and a five day
+              forecast for any specific place you manually input in the search
+              bar. Also you can check the weather and forecast of your current
+              location.
+              <br />
+              <br />
+              This app was developed as a project on the SheCodes workshop I
+              took on 2022. It uses Open Weather Map API as a source of
+              information, and it's my first project developed using React.
+            </p>
+            <p>Go and check if you need to carry an umbrella!</p>
+            <div class="bubble">HTML</div>
+            <div class="bubble">CSS</div>
+            <div class="bubble">JS</div>
+            <div class="bubble">React</div>
+            <div class="bubble">Netlify</div>
+            <div class="bubble">Github</div>
+            <form
+              action="https://unique-seahorse-565ed4.netlify.app/"
+              target="_blank"
+            >
+              <button class="app-button button-1 mt-5">
+                Launch Weather App
+              </button>
+            </form>
+            <form
+              action="https://github.com/annaruizverdaguer/weather-react"
+              target="_blank"
+            >
+              <button class="button-3 mt-3">Check Github Repo</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 mt-5">
+        <div class="app-photo">
+          <img src="images/github.png" alt="Github user search" class="project-picture" />
+        </div>
+        <div class="app-content mx-4">
+          <h2 class="my-3">Github Search</h2>
+          <p>
+            Github user search will return user information based on the
+            username given in the search bar. Information shown will be the
+            name of the user, the avatar, and the repositories, with the forks
+            and the stars they have.
+            <br />
+            <br />
+            This app was developed as a coding challenge a colleage of mine
+            gave me. It's the first app I have ever written.
+          </p>
+          <p>Want to check some Github users?</p>
+          <div class="bubble">HTML</div>
+          <div class="bubble">CSS</div>
+          <div class="bubble">JS Vanilla</div>
+          <div class="bubble">Netlify</div>
+          <div class="bubble">Github</div>
+          <form action="https://glowing-sprite-f2375f.netlify.app/" target="_blank">
+            <button class="app-button button-1 mt-5">
+              Github User Search App
+            </button>
+          </form>
+          <form action="https://github.com/annaruizverdaguer/github-search" target="_blank">
+            <button class="button-3 mt-3">Check Github Repo</button>
+          </form>
+        </div>
+      </div>
+    </div>
+      <div class="git-repo-footer">
+        <p>Designed & built by Anna Ruiz Verdaguer</p>
+        <a
+          href="https://github.com/annaruizverdaguer/my-portfolio"
+          target="_blank"
+          ><i class="fa-brands fa-github git-repo-link"></i
+        ></a>
+      </div>
+    </div>
+    <div class="contact-footer">
+      <div class="contact-content d-none" id="contact-me">
+        <i class="fa-brands fa-linkedin"></i>
+        <a
+          href="https://www.linkedin.com/in/anna-ruiz-verdaguer/"
+          target="_blank"
+        >
+          <span> Anna Ruiz Verdaguer</span></a
+        >
+        <br />
+        <i class="fa-solid fa-at"></i>
+        <a href="mailto:anna.ruizverdaguer@gmail.com">
+          <span> anna.ruizverdaguer@gmail.com</span></a
+        >
+      </div>
+      <button class="contact-me-button contact-toggle">
+        <i class="fa-regular fa-address-card"></i>
+      </button>
+    </div>
+    <script src="src/app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
